@@ -34,4 +34,4 @@ This is a beginner-friendly Java web application built to understand the core co
 ### Steps to Run
 1. *Clone the Repository*
    ```bash
-   git clone https://github.com/Sudhir3456/Advanced-Java-Servlet-JSP-Repository.git
+   git clone https://github.com/Sudhir3456/advanced-java-servlet-jsp-repository.git
