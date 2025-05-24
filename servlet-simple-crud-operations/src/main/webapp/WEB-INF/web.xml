@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+
+	<display-name>Archetype Created Web Application</display-name>
+
+	<!-- Configuration for Registration Page -->
+	<servlet>
+		<servlet-name>registrationServlet</servlet-name>
+		<servlet-class>com.jspider.servlet_simple_crud.controller.InsertStudentController4</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registrationServlet</servlet-name>
+		<url-pattern>/Registration</url-pattern>
+	</servlet-mapping>
+
+	<!-- Configuration for Login Page -->
+	<servlet>
+		<servlet-name>loginServlet</servlet-name>
+		<servlet-class>com.jspider.servlet_simple_crud.controller.LoginController2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loginServlet</servlet-name>
+		<url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+
+</web-app>
